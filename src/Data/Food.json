@@ -1,0 +1,115 @@
+{
+    "data": [
+        {
+            "NonVeg": [
+                {
+                    "title": "Mutton Briyani",
+                    "url": "https://img.freepik.com/free-photo/mutton-lamb-biriyani-with-basmati-rice-served-bowl-moody-background_466689-72651.jpg?w=2000&t=st=1669542179~exp=1669542779~hmac=3328eb4565ef67d52f10c84abf2604a86acc46ba78a425b07725da5eba4c04d5",
+                    "price":"220",
+                    "quantity":"5",
+                    "content": "spicy hot Mutton briyani"
+                },
+                {
+                    "title": "Chicken Briyani",
+                    "url": "https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72554.jpg?w=2000&t=st=1669542083~exp=1669542683~hmac=5f39bd4402d155c827fced28590dd22362cfcfd249e91151c7e5db3c5905a1f9",
+                    "price":"180",
+                    "quantity":"5",
+                    "content": "spicy hot Chicken briyani"
+                },
+                {
+                    "title": "Hydrebad Chicken Briyani",
+                    "url": "https://img.freepik.com/premium-photo/hyderabadi-chicken-dum-biryani-served-kadhai-bowl-with-yogurt-dip-selective-focus_466689-18071.jpg?w=2000",
+                    "price":"190",
+                    "quantity":"5",
+                    "content": "spicy Hydrebad Chicken briyani"
+                },
+                {
+                    "title": "Mutton Gravy",
+                    "url": "https://img.freepik.com/premium-photo/lauki-kofta-curry-made-using-bottel-gourd-doodhi-served-bowl-karahi-selective-focus_466689-39523.jpg?w=2000",
+                    "price":"290",
+                    "quantity":"5",
+                    "content": "soupy Mutton gravy"
+                },
+                {
+                    "title": "Chettinad Chicken Briyani",
+                    "url": "https://as2.ftcdn.net/v2/jpg/00/38/12/59/1000_F_38125957_Vdz1p1zZMiBB4KT69EUC0pGPZvJzNqii.jpg",
+                    "price":"170",
+                    "quantity":"5",
+                    "content": "spicy Chettinad Chicken briyani"
+                },
+                {
+                    "title": "Tandoori Chciken",
+                    "url": "https://as2.ftcdn.net/v2/jpg/02/44/45/55/1000_F_244455501_IYcPhW00jmk8KCJfYkmvpZjSsQDh6EcE.jpg",
+                    "price":"390",
+                    "quantity":"5",
+                    "content": "tandoori chicken"
+                },
+                {
+                    "title": "KFC Leg",
+                    "url": "https://as2.ftcdn.net/v2/jpg/01/42/12/21/1000_F_142122111_3St86Edj1jJxQfYELMeSoUXPxJzJPKuI.jpg",
+                    "price":"390",
+                    "quantity":"5",
+                    "content": "KFC chicken"
+                }
+            ]
+        },
+        {
+            "Veg": [
+                {
+                    "title": "Briyani",
+                    "url": "test1",
+                    "content": "spicy hot  briyani"
+                },
+                {
+                    "title": "Soya Briyani",
+                    "url": "https://img.freepik.com/free-photo/yummy-soya-pulao-pilav-pulav-rice-soyabean-chunk-fried-rice-with-peas-beans-indian-pakistani-cuisine_466689-75121.jpg?w=2000&t=st=1669542264~exp=1669542864~hmac=10e3b1e8cbc954236252cad7014e2d0ceffe140998b8ab48b380401a15bcdebc",
+                    "price":"180",
+                    "quantity":"5",
+                    "content": "spicy Soya briyani"
+                },
+                {
+                    "title": "Panner Briyani",
+                    "url": "https://img.freepik.com/free-photo/healthy-paneer-pulav-pilaf-using-basmati-rice-served-bowl-plate-indian-food_466689-72592.jpg?w=1060&t=st=1669542285~exp=1669542885~hmac=9448ddd0cc6331ec3cd62a3fe442951ba3e07342b7d2bd66656caaf8bfb0c324",
+                    "price":"190",
+                    "quantity":"5",
+                    "content": "Juicy Panner briyani"
+                },
+                {
+                    "title": "Pulao",
+                    "url": "https://img.freepik.com/premium-photo/yummy-soya-pulao-pilav-pulav-rice-soyabean-chunk-fried-rice-with-peas-beans-indian-pakistani-cuisine_466689-75172.jpg?w=2000",
+                    "price":"150",
+                    "quantity":"5",
+                    "content": "spicy hotPulao"
+                },
+                {
+                    "title": "veg meals",
+                    "url": "https://img.freepik.com/free-photo/closeup-shot-indian-tasty-food-called-marwari-veg-thali-wooden-table_181624-58043.jpg?w=2000&t=st=1669542489~exp=1669543089~hmac=d5b04b87e0731d50c625f6608923ede0f9b26f4a9325e30d41ffa542c3e8d2bc",
+                    "price":"100",
+                    "quantity":"5",
+                    "content": "Veg Meals"
+                },
+                {
+                    "title": "Sambar Rice",
+                    "url": "https://img.freepik.com/free-photo/sambar-rice-sambar-sadam-one-pot-meal-from-south-indian-state-tamil-nadu-kerala_466689-75220.jpg?w=2000&t=st=1669542562~exp=1669543162~hmac=70327eecd885acae0da037e76ff3ca580f7d82a2c414d6f4897f883c2db454b0",
+                    "price":"100",
+                    "quantity":"5",
+                    "content": "Sambar Rice"
+                },
+                {
+                    "title": "Palak",
+                    "url": "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76134.jpg?w=2000&t=st=1669542594~exp=1669543194~hmac=e1522d6062e5d78b71ecf9db5c4fa9cbb45625dae23885b64c1fe445a80334f6",
+                    "price":"100",
+                    "quantity":"5",
+                    "content": "Palak Potatoes"
+                },
+                {
+                    "title": "Lemon Rice",
+                    "url": "https://img.freepik.com/free-photo/curry-fried-rice_1339-1815.jpg?w=2000&t=st=1669542662~exp=1669543262~hmac=cb4522791174a6372c48fc68e2a46fa75f2d9253e6dd433f32bd8a4156345c32",
+                    "price":"100",
+                    "quantity":"5",
+                    "content": "Tangy Lemon Rice"
+                }
+            ]
+        }
+    ]
+}

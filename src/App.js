@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Welcome from './components/HomePage/HomePage';
+import AppRoute from './components/AppRoute';
+
 
 function App() {
   return (
     <div className="App">
-    
-      <Welcome />
+
+     <AppRoute/>
+ 
+
     </div>
   );
 }
