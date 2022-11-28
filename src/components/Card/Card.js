@@ -3,18 +3,20 @@ import Food from "../../Data/Food.json";
 
 export default function Card() {
   var items = Food.data[0].NonVeg;
+  var VegItems = Food.data[1].Veg;
   var FoodData = JSON.parse(localStorage.getItem("Fooddata"));
+  if (FoodData) {
+    items = items.concat(FoodData);
+  }
   var len = items.length;
   const arr = new Array(len).fill(0);
-  var [quantity, setQuantity] = useState(arr);
+  var [  quantity,setQuantity] = useState(arr);
   const da = JSON.parse(localStorage.getItem("quantity"));
   if (!da) {
     var data = new Array(len).fill(0);
     localStorage.setItem("quantity", JSON.stringify(data));
   }
-  if (FoodData) {
-    items = items.concat(FoodData);
-  }
+
   const increament = (index) => {
     if (items[index].quantity >= da[index] + 1) da[index] = da[index] + 1;
     data = da;
@@ -58,7 +60,7 @@ export default function Card() {
                   <p className="card-text">{item.content}</p>
                   <p className="card-text">Rs:{item.price}</p>
                   <p className="card-text">
-                    <span onClick={() => increament(index)}>+ </span>Quantity:
+                    <span onClick={() => increament(index)}><i class="fa-solid fa-plus"></i> </span>Quantity:
                     {quantity[index]}
                     <span onClick={() => decreament(index)}> -</span>
                   </p>

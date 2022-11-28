@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import img from "../../images/biriyani.jpeg";
 import img2 from "../../images/idly.jpeg";
 import "./HomePage.css";
+import  Dropdown  from "./Dropdown";
+
 function Welcome() {
   var userData = JSON.parse(localStorage.getItem("userdata"));
   const content = (localStorage.getItem("data"));
@@ -49,23 +51,38 @@ function Welcome() {
 
 
             </ul>
-            <div className="d-flex">
-              <div className="nav-item" id="login">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="javascript(void)"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Login</a>
-                  </li>
-                </ul>
-              </div>
+     
+              <div className="content">
+            Hello,{userData.username}   
 
-              <div className="nav-item" id="signup">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="javascript(void)"><i class="fa-solid fa-user-plus"></i>&nbsp;SignUp</a>
-                  </li>
-                </ul>
-              </div>
+            {userData.role === "adm" ? (
+          <>
+          <Link to="/viewcart" className="text text-links">
+          ViewCart
+         </Link>
+            <Modal />
+   
+
+          
+          </>
+        ) : (
+          " "
+        )}
+        {userData.role === "usr" ? (
+          <> 
+         
+ <Link to="/viewcart" className="text text-links">
+          ViewCart
+         </Link>
+
+            <h1>heelo user</h1>
+     
+          </>
+        ) : (
+          " "
+        )}
             </div>
+
 
 
           </div>
@@ -138,32 +155,9 @@ function Welcome() {
 
   </div>
         <div>
-        Hello,{userData.username}   
        
-        {userData.role === "adm" ? (
-          <>
-          <Link to="/viewcart" className="text text-links">
-          ViewCart
-         </Link>
-            <Modal />
-            <h1>heelo admin</h1>
-            <Card/>
-          </>
-        ) : (
-          " "
-        )}
-        {userData.role === "usr" ? (
-          <> 
-          <Link to="/viewcart" className="text text-links">
-          ViewCart
-         </Link>
-
-            <h1>heelo user</h1>
-            <Card />
-          </>
-        ) : (
-          " "
-        )}
+       
+      <Card />
         </div>
         </>
   );

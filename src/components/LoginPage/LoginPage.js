@@ -15,7 +15,7 @@ function LoginPage() {
  
     if (!token) {
       token = data.data;
-      localStorage.setItem("data","new image")
+   
     }
     if (token.password === pass && username === token.username) {
       navigate("/home");
